@@ -13,8 +13,8 @@ We provide here code to generate the results shown in the paper, as well as the 
 The code is written in [R](https://www.r-project.org/). Required packages will be installed automatically. 
 
 ## Organization
-* `file.R`: description of file
-* `file.R`: description of file
+* `data`: datasets used in the paper
+* `code`: code to run PBLA and the compared methods
 
 ## Datasets
 
