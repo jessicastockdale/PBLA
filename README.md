@@ -10,7 +10,7 @@ We provide here code to generate the results shown in the paper, as well as the 
 
 ## Usage
 
-The code is written in [R](https://www.r-project.org/). Required packages will be installed automatically. 
+The code is written in [R](https://www.r-project.org/) and C. Required packages will be installed automatically. 
 
 ## Organization
 * `data`: datasets used in the paper
