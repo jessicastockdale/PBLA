@@ -4,5 +4,5 @@ This folder contains two simulated data files, since the actual FMD data are not
 in place of the FMD data, in the code for a homogenously mixing model with spatial component to the force of infection. The data files
 are as follows:
 
-* 'file.txt' - description of file
-* 'file.txt' - description of file
+* `file.txt` - description of file
+* `file.txt` - description of file
