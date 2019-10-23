@@ -10,7 +10,7 @@ We provide here code to generate the results shown in the paper, as well as the 
 
 ## Usage
 
-The code is written in [`R`](https://www.r-project.org/) and `C`. Required `R` packages will be installed automatically. `C` code requires use of [GSL libraries] (https://www.gnu.org/software/gsl/)
+The code is written in [`R`](https://www.r-project.org/) and `C`. Required `R` packages will be installed automatically. `C` code requires use of [GSL libraries](https://www.gnu.org/software/gsl/)
 
 ## Organization
 * `data`: datasets used in the paper
