@@ -10,4 +10,5 @@ The files here are:
 Code to generate deterministic Ebola data analysis, based on the method of 
 > C.L. Althaus. Estimating the reproduction number of Ebola virus (EBOV) during
 > the 2014 outbreak in West Africa. PLoS Currents Outbreaks, 6, 2014,
+
 was adapted from their Github repository, available at https://github.com/calthaus/Ebola
