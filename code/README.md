@@ -9,6 +9,7 @@ The files here are:
 * `ebola_pbla_and_althaus.R` - code to generate PBLA and Althaus analysis for Ebola virus data, and create plots comparing the analyses
 * `fam_ed_MAPs.R` - code to generate Eichner Dietz method MAPs for (simulated) Foot and Mouth outbreak data
 * `fam_PBLA.R` - code to generate PBLA method MAPs and profile log likelihoods for (simulated) Foot and Mouth outbreak data
+* `fam_results.R` - code to generate (simulated) Foot and Mouth outbreak data plots, comparing PBLA/ED/DA-MCMC
 * `lh_foropt.cpp` - PBLA log likelihood, for Foot and Mouth analysis
 * `lh_foropt_post.cpp` - PBLA posterior, for Foot and Mouth analysis
 
