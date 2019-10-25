@@ -102,7 +102,7 @@ nlog_post<-function(x,R2=r,pmat=pmat, N=N,n=n, m=4, n_c=n_c, n_s=n_s){
 }
 # then minimise
 nlm(f=nlog_post, p=c(0.00001, 0.8, 0.0001, 2.0, 0.5, 0.8),  print.level = 2, R2=r, pmat=pmat, N=N,n=n, m=4, n_c=n_c, n_s=n_s)
-
+# this provides the MAPs
 
 ###############################
 ## Profile log likelihoods
