@@ -4,11 +4,6 @@
 ### for the (simulated) Foot and Mouth data ###
 ##############################################
 
-# install any missing packages
-list.of.packages <- c("")
-new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
-if(length(new.packages)) install.packages(new.packages)
-
 ###############################
 ## set up 
 
@@ -165,14 +160,4 @@ opt2<-nlm(post_o_min, init.values,pmat=pmat, m=4, N=N, data=data, n_c=n_c, n_s=n
           fscale = 6000, print.level=2 )
 
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   
