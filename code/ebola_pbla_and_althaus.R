@@ -21,7 +21,7 @@ myPalette <- colorRampPalette(rev(brewer.pal(11, "Spectral")), space="Lab")
 ##################################################
 
 # Read in and set up the data
-fdata<- read.csv("ebola_cdc_deathsdata.csv")
+fdata<- read.csv("../data/Ebola/ebola_cdc_deathsdata.csv")
 fdata[,1] <- chron(as.character(fdata[,1]),format=c(dates = "d/m/y"))
 
 ##set start dates

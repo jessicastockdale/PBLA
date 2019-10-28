@@ -12,8 +12,8 @@ library("ggplot2")
 
 ##################################################
 ## Read in the data (files provided in data folder of github repository)
-data<-read.table("tdc_jitteredtimes.txt", header=FALSE)
-c<-read.table("tdc_agegroups.txt", header=FALSE)
+data<-read.table("../data/TristanDaCunha/tdc_jitteredtimes.txt", header=FALSE)
+c<-read.table("../data/TristanDaCunha/tdc_agegroups.txt", header=FALSE)
 data <- cbind(data,c)
 
 ##################################################
