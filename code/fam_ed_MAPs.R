@@ -13,11 +13,11 @@ set.seed(12345)
 print("Read in the data...")
 
 # Load in the data and define necessary quantities
-data<-read.table("data_rd.txt")
-n_c<-read.table("n_c.txt") # number of cows
-n_s<-read.table("n_s.txt") # number of sheep
-xc<-read.table("x_coord_rd.txt") # x co-ordinate of farm
-yc<-read.table("y_coord_rd.txt") # y co-ordinate of farm
+data<-read.table("../data/FMD/data_rd.txt")
+n_c<-read.table("../data/FMD/n_c.txt") # number of cows
+n_s<-read.table("../data/FMD/n_s.txt") # number of sheep
+xc<-read.table("../data/FMD/x_coord_rd.txt") # x co-ordinate of farm
+yc<-read.table("../data/FMD/y_coord_rd.txt") # y co-ordinate of farm
 N<-5378 # population size
 n<-1021 # final outbreak size
 
