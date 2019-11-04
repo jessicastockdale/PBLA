@@ -100,6 +100,7 @@ post<-function(theta, N, nI, data, K = 1000, init.value = -10){
 ##################################################
 ## Now, perform the optimisation
 
+# note: warning 'NA/Inf replaced by maximum positive value' from NLM may occur - unacceptable parameter values just being tested
 opt3<-nlm(post, c(0.1,0.1,0.1,0.01), N=N, nI=nI, data=data, typsize = c(0.001, 0.001, 0.001, 0.1), 
           fscale = -225, print.level=2 )
 write(opt3$estimate, file ="ed_tdc_opt.txt", sep = ",", ncolumns=1, append = TRUE)
