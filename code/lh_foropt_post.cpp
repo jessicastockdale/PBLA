@@ -5,7 +5,6 @@
 #include <math.h>
 #include <time.h>
 #include <assert.h>
-#include <omp.h>
 
 #include <RcppGSL.h>
 //using namespace Rcpp;
