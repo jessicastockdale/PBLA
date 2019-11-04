@@ -10,7 +10,7 @@
 #include <math.h>
 #include <time.h>
 #include <assert.h>
-#include <omp.h>
+
 // GSL Libraries
 #include <gsl/gsl_rng.h>
 #include <gsl/gsl_randist.h>
