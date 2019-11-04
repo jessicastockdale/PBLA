@@ -95,6 +95,7 @@ r<-data[,2]
 ###############################
 ## NLM optimisation
 print("Ready to optimise")
+# note: warning 'NA/Inf replaced by maximum positive value' from NLM may occur - unacceptable parameter values just being tested
 
 # first transform to negative log posterior
 nlog_post<-function(x,R2=r,pmat=pmat, N=N,n=n, m=4, n_c=n_c, n_s=n_s){
