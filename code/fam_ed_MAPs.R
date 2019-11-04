@@ -153,7 +153,7 @@ post_o_min<-function(theta,  m=4, N, data, n_c, n_s, xc, yc, pmat, K = 1000, ini
 print("Now run NLM...")  
   
 ## Use non-linear minimization (found best for high-dimensional lhs) to find MLEs of 6 model parameters
-
+# note: warning 'NA/Inf replaced by maximum positive value' from NLM may occur - unacceptable theta values just being tested
 init.values <- c(1.404e-06, 8.900e-01, 9.540e-03, 3.152e+00, 4.778e+00, 6.360e-01)
 opt2<-nlm(post_o_min, init.values,pmat=pmat, m=4, N=N, data=data, n_c=n_c, n_s=n_s,xc=xc,yc=yc,
           K=500,init.value = -10, typsize = c(0.0000001,0.1,0.001,1.0,1.0,0.1), 
