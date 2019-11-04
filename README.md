@@ -22,7 +22,7 @@ Datasets included in this repository are:
 
 1. Respiratory disease in Tristan da Cunha
 2. Ebola in West Africa
-3. Simulated dataset for a heterogeneously mixing outbreak with spatial component. 
+3. Simulated dataset for a heterogeneously mixing outbreak where the infection rate depends on geographical location. 
 
 
 
