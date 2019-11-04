@@ -78,11 +78,11 @@ int main (int argc, char *argv[]) {
 ////////////////////////////////////////////////////////////////////////
 
     // Finally, read in the data
-	FILE *F10 = fopen("tdc_jitteredtimes.txt", "r");
+	FILE *F10 = fopen("../data/TristanDaCunha/tdc_jitteredtimes.txt", "r");
 	gsl_vector *obs_data = gsl_vector_alloc(N);
 	gsl_vector_fscanf(F10, obs_data);
 
-	FILE *F11 = fopen("tdc_agegroups.txt", "r");
+	FILE *F11 = fopen("../data/TristanDaCunha/tdc_agegroups.txt", "r");
 	gsl_vector *type_data = gsl_vector_alloc(N);
 	gsl_vector_fscanf(F11,type_data);
 
