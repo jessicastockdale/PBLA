@@ -18,11 +18,11 @@ library(classInt)
 set.seed(12345)
 
 # read in the data
-data<-read.table("data_rd.txt") # removal data
-n_c<-read.table("n_c.txt") # number of cows per farm
-n_s<-read.table("n_s.txt") # number of sheep per farm
-xc<-read.table("x_coord_rd.txt") # x coordinate of farm location
-yc<-read.table("y_coord_rd.txt") # y coordinate of farm location
+data<-read.table("../data/FMD/data_rd.txt") # removal data
+n_c<-read.table("../data/FMD/n_c.txt") # number of cows per farm
+n_s<-read.table("../data/FMD/n_s.txt") # number of sheep per farm
+xc<-read.table("../data/FMD/x_coord_rd.txt") # x coordinate of farm location
+yc<-read.table("../data/FMD/y_coord_rd.txt") # y coordinate of farm location
 N<-5378 # population size
 n<-1021 # outbreak (final) size
 
