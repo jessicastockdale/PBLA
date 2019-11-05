@@ -13,6 +13,8 @@ The files here are:
 * `lh_foropt.cpp` - PBLA log likelihood, for heterogenous mixing model analysis
 * `lh_foropt_post.cpp` - PBLA posterior, for heterogenous mixing model analysis
 
+The last 5 files are for analysis using a heterogeneous mixing model such as that used in the Foot and Mouth outbreak examples in the paper. Since these data are not able to be made available, we provide general code for any model where the infection rate from an individual i to another j is given by beta_ij - defined as a function of location and the numbers of cows/sheep as in the FMD analysis, or otherwise.
+
 Code to generate deterministic Ebola data analysis, based on the method of 
 > C.L. Althaus. Estimating the reproduction number of Ebola virus (EBOV) during
 > the 2014 outbreak in West Africa. PLoS Currents Outbreaks, 6, 2014,
