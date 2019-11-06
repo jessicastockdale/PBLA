@@ -10,7 +10,7 @@ We provide here code to generate the results found in the paper, as well as the 
 
 ## Usage
 
-The code is written in [R](https://www.r-project.org/), C, and C++ code will also be called through [Rcpp](https://cran.r-project.org/web/packages/Rcpp/index.html). Required R packages will be installed automatically. C/C++ code requires use of [GSL libraries](https://www.gnu.org/software/gsl/)
+The code is written in [R](https://www.r-project.org/) and C, and C++ code will also be called through [Rcpp](https://cran.r-project.org/web/packages/Rcpp/index.html). Required R packages will be installed automatically. C/C++ code requires use of [GSL libraries](https://www.gnu.org/software/gsl/)
 
 ## Organization
 * `data`: datasets used in the paper
