@@ -6,7 +6,7 @@ Pair-based likelihood approximations for stochastic epidemic models
 > Pair-based likelihood approximations for stochastic epidemic models \
 > Jessica E. Stockdale, Theodore Kypraios, Philip D. O'Neill 
 
-We provide here code to generate the results found in the paper, as well as the publically-available data used. The Foot and Mouth outbreak data are not able to be shared, but we provide code for similar analysis of general heterogeneous mixing datasets.
+We provide here code to generate the results found in the paper, as well as the publically-available data used. The Foot and Mouth outbreak data are not able to be shared, but we provide the code so that it may be adapted for similar analysis of general heterogeneous mixing datasets.
 
 ## Usage
 
